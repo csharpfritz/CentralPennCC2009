@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+	<title>Welcome</title>
+	<style type="text/css">
+
+		body {
+			font-family: verdana;
+			font-size:8pt;
+			line-height:12pt;
+			margin:30px;
+			}
+
+		h1 {
+			font-size:14pt;
+			font-weight:bold;
+			}
+
+		h2 {
+			font-size:10pt;
+			font-weight:bold;
+			}
+		
+		h3 {
+			font-size:8pt;
+			font-weight:bold;
+		}
+		
+		table {
+			border-collapse:collapse;
+		}
+		
+		td, th {
+			font-size:8pt;
+			border:1px solid black;
+			padding: 10px;
+		}
+		
+		th {
+			text-align:left;
+		}
+		
+		.warning {
+			color:red;
+			font-size:8pt;
+			font-style:italic;
+		}
+		
+		.tip {
+			font-style:italic;
+		}
+		
+		ol {
+			margin-top:1.2em;
+			margin-bottom:1.2em;
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Personal Site Starter Kit</h1>
+	<p>
+		Welcome to your new <strong>Personal Site</strong> sample application. The key features are:</p>
+	<ul>
+		<li><strong>Photos.</strong> Share photos and group them in albums.</li>
+		<li><strong>Resume and Links.</strong> Display your professional qualifications and your favorite links.</li></ul>
+	<p>
+		This site is ready to run! No changes are needed. Press CTRL+F5 to run the site.</p>
+		
+	<hr />
+		
+	<h2>Site Members and Roles</h2>
+	<p>
+		Your Starter Kit Web site allows visitors to register as members and then log in.
+		Members have specific privileges defined by roles such as administrator or guest.
+		Each Starter Kit Web site defines site-specific roles.
+		The following table describes what features are available to visitors in different roles.</p>
+	<table>
+		<tr>
+			<th>Visitor</th>
+			<th>Privileges</th>
+		</tr>
+		<tr>
+			<td>
+				Not logged in</td>
+			<td>May view only photos belonging to albums marked as public.</td>
+		</tr>
+		<tr>
+			<td>Logged in</td>
+			<td>
+				No additional privileges.</td>
+		</tr>
+		<tr>
+			<td>Logged in as <br />
+				<strong>Friends</strong></td>
+			<td>May additionally view photos belonging to albums not marked public.</td>
+		</tr>
+		<tr>
+			<td>Logged in as <strong><br />
+				Administrators</strong></td>
+			<td>May additionally edit all album and photo data.</td>
+		</tr>
+	</table>
+	<p class="warning">
+		Important: Run the site before proceeding to automatically generate the site's predefined roles.</p>
+	<p>
+		Be sure to create a user name for yourself and assign yourself to a role (such as administrator) that can manage the site.</p>
+	<p>
+		Visitors can register by clicking the <strong>Register</strong> link.
+		New members are not activated automatically—and accounts must be manually activated. You can manage users (for example, assign them to a role) using the ASP.NET Web Site Administration tool.
+		For details, see <a href="#AppendixA">Appendix A</a>.</p>
+		
+	<hr />
+	
+	<h2>Photos and Albums</h2>
+	<p>
+		The photo album enables you to:</p>
+	<ul>
+		<li>Create albums that act as collections of photos.</li>
+		<li>Upload photos individually into an album.</li>
+		<li>Bulk upload a collection of photos into an album.
+			This feature is useful for creating an album from a collection of photos, such as your vacation pictures.</li>
+	</ul>
+	<h3>To create an album and add photos</h3>
+	<ol>
+		<li>Log in to the site as an administrator (member in the role <strong>Administrators</strong>).</li>
+		<li>In the menu, click <strong>Manage</strong>.</li>
+		<li>Under <strong>Add New Album</strong>, type a name.</li>
+		<li>If you want everyone to be able to see your photos, select <strong>Make this album public</strong>.
+			If you leave this check box unselected, only users who are registered as friends can view the album.</li>
+		<li>Click <strong>Add</strong> to create the album.</li>
+		<li>Under <strong>Your Albums</strong>, click the blank photo for the new album.</li>
+		<li>Under <strong>Add Photos</strong>, type or select the photo file name, type a caption, and click <strong>Insert</strong>. </li>
+		<li>Repeat Step 7 for each photo you want to add to the album.</li>
+	</ol>
+	<h3>To bulk upload photos into an album</h3>
+	<ol>
+		<li>Copy your photos to the Upload folder in the Web site.</li>
+		<li>In the menu, click <strong>Manage</strong>. </li>
+		<li>In the album list, click the photo of the album to use. (Create a new album first, if necessary.)</li>
+		<li>Click <strong>Import</strong>. All the photos in the Upload folder are added to the album.</li>
+	</ol>
+	
+	<hr />
+	
+	<a name="AppendixA" />
+	<h2>Appendix A - Manually Managing Members and Roles</h2>
+	<p>
+		Your Starter Kit Web site allows visitors to register as members.
+		Members have specific privileges defined by a role you assign to them.
+		A special administrative role has rights to perform all functions in the site.</p>
+	<p class="tip">
+		Note: After creating your Starter Kit Web site, create an administrative user for yourself so you can manage the site.</p>
+	<p>
+		To create a user (member) manually:</p>
+	<ol>
+		<li>In the <strong>Website</strong> menu, click <strong>ASP.NET Configuration</strong>.
+		</li>
+		<li>Click the <strong>Security</strong> tab.</li>
+		<li>Click <strong>Create user</strong>. </li>
+		<li>In the <strong>Create User</strong> box, type a user name, password, and e-mail address for the member.
+			You must also provide a security question and answer that is used to help users recover their passwords, if necessary.</li>
+		<li>In the <strong>Roles</strong> box, sselect the check boxes corresponding to the roles you wish to assign to the new user.</li>
+		<li>Click <strong>Create User</strong>. </li>
+		<li>Close the Web Site Administration Tool. </li>
+	</ol>
+	<p>
+		To modify an existing member's role:</p>
+	<ol>
+		<li>In the <strong>Website</strong> menu, click <strong>ASP.NET Configuration</strong>.
+		</li>
+		<li>Click the <strong>Security</strong> tab.</li>
+		<li>Under <strong>Users</strong>, click <strong>Manage users</strong>. </li>
+		<li>In the user list, click <strong>Edit roles</strong> for the member. (If you do not see the member's name, use the search box.)</li>
+		<li>Under <strong>Roles</strong>, select the role to assign to the selected member.</li>
+		<li>Close the Web Site Administration Tool. </li>
+	</ol>
+
+	<hr />
+	
+	<h2>Appendix B - Publishing Your Site</h2>
+	<p>
+		When you are ready to share the Web site with others, you can copy it to your Web server.
+		You need to know the File Transfer Protocol (FTP) address of your server, and if required, the user name and password assigned to you.</p>
+	<ol>
+		<li>In the <strong>Website</strong> menu, click <strong>Copy Web Site</strong>. The Copy Web Site tool displays the files from your Web site under <strong>Source Web Site</strong>.
+		</li>
+		<li>In the <strong>Connections</strong> list, select <strong>Connect to...</strong>. </li>
+		<li>In the <strong>Open Web Site</strong> dialog box, click the <strong>FTP Site</strong>
+			tab.</li>
+		<li>Type the FTP address of your server, and if required, the user name and password that your hosting site has provided.
+			The FTP URL usually has a format like this:<br />
+			<pre>ftp://ftp.servername/foldername</pre></li>
+		<li>Click <strong>Open</strong>. The files on the Web server are displayed under <strong>
+			Remote Web Site</strong>.
+			<p class="tip">
+				Note: If you have trouble connecting to the server, contact the server administrator.</p></li>
+		<li>In the <strong>Source Web site</strong> box, select all the files.</li>
+		<li>Click the <strong>Copy selected files from source to remote web site</strong> button.</li>
+	</ol>
+	<p>
+		The files from your site are copied to the server.</p>
+</body>
+</html>

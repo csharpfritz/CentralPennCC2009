@@ -1,0 +1,5 @@
+C:\PhillyDotNet\CodeCamp2009.3\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
+C:\PhillyDotNet\CodeCamp2009.3\WebApplication2\bin\WebApplication1.dll
+C:\PhillyDotNet\CodeCamp2009.3\WebApplication2\bin\WebApplication1.pdb
+C:\PhillyDotNet\CodeCamp2009.3\WebApplication2\obj\Debug\WebApplication1.dll
+C:\PhillyDotNet\CodeCamp2009.3\WebApplication2\obj\Debug\WebApplication1.pdb

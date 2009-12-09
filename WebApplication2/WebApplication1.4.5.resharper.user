@@ -1,0 +1,113 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:Default.master" caret="0" fromTop="0" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Views/f:Web.config" caret="104" fromTop="4" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:Global.asax" caret="611" fromTop="2" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:Default.aspx.cs" caret="546" fromTop="21" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:BaseWebPage.cs" caret="422" fromTop="9" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Controllers/f:HomeController.cs" caret="505" fromTop="12" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Views/d:Home/f:Index.aspx" caret="470" fromTop="17" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:Web.config" caret="5810" fromTop="23" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:Global.asax" caret="354" fromTop="9" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:Global.asax" caret="1024" fromTop="12" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Controllers/f:HomeController.cs" caret="68" fromTop="2" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:Default.aspx.cs" caret="319" fromTop="11" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:Default.aspx.cs" caret="554" fromTop="21" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:BaseWebPage.cs" caret="727" fromTop="26" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:BaseWebPage.cs" caret="669" fromTop="22" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:BaseWebPage.cs" caret="1410" fromTop="20" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:BaseWebPage.cs" caret="1473" fromTop="22" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:BaseWebPage.cs" caret="1659" fromTop="10" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:BaseWebPage.cs" caret="1149" fromTop="6" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:BaseWebPage.cs" caret="1291" fromTop="11" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/f:BaseWebPage.cs" caret="538" fromTop="13" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Controllers/f:HomeController.cs" caret="1226" fromTop="18" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Controllers/f:HomeController.cs" caret="245" fromTop="12" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Controllers/f:HomeController.cs" caret="1030" fromTop="19" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Controllers/f:HomeController.cs" caret="967" fromTop="14" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Controllers/f:HomeController.cs" caret="856" fromTop="19" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Controllers/f:HomeController.cs" caret="718" fromTop="21" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Controllers/f:HomeController.cs" caret="504" fromTop="12" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Views/d:Home/f:Index.aspx" caret="108" fromTop="0" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Views/d:Home/f:Index.aspx" caret="302" fromTop="5" />
+      <File id="CF4BE1DA-36B8-4DBD-BFE5-7F542A6C415E/d:Views/d:Home/f:Index.aspx" caret="443" fromTop="13" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="System" priority="0" />
+      <Item value="Web" priority="0" />
+      <Item value="UI" priority="0" />
+      <Item value="Page" priority="0" />
+      <Item value="protected" priority="0" />
+      <Item value="public" priority="11" />
+      <Item value="void" priority="0" />
+      <Item value="Data" priority="3" />
+      <Item value="object" priority="0" />
+      <Item value="TableSectionStyle" priority="0" />
+      <Item value="int" priority="0" />
+      <Item value="DataTable" priority="0" />
+      <Item value="IWebUI" priority="0" />
+      <Item value="static" priority="2" />
+      <Item value="class" priority="2" />
+      <Item value="IDataAccessLayer" priority="2" />
+      <Item value="BaseWebPage" priority="1" />
+      <Item value="this" priority="2" />
+      <Item value="return" priority="2" />
+      <Item value="private" priority="0" />
+      <Item value="new" priority="2" />
+      <Item value="InnerGetMyDAL" priority="1" />
+      <Item value="DataAccessLayer" priority="0" />
+      <Item value="HomeController" priority="0" />
+      <Item value="string" priority="2" />
+      <Item value="var" priority="2" />
+      <Item value="Person" priority="0" />
+      <Item value="FirstName" priority="0" />
+      <Item value="LastName" priority="0" />
+      <Item value="Model" priority="4" />
+      <Item value="ViewData" priority="2" />
+      <Item value="T" priority="0" />
+      <Item value="ViewModel" priority="0" />
+      <Item value="css" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WebApplication1.IDataAccessLayer">
+      <Item value="GetStuff" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WebApplication1.BaseWebPage">
+      <Item value="GetDAL" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WebApplication1.Controllers.HomeController">
+      <Item value="GetDAL" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WebApplication1.Controllers.Person">
+      <Item value="FirstName" priority="0" />
+      <Item value="LastName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="Encode" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WebApplication1.Controllers.ViewModel`1">
+      <Item value="css" priority="0" />
+      <Item value="model" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
